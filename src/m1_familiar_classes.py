@@ -30,7 +30,7 @@ print(type(obj_2))
 print(type(obj_3))
 print(type(obj_4))
 ###############################################################################
-# DONE ISH: 2. (4 pts)
+# TODO 2. (4 pts)
 #
 #   Also, remember that these objects have methods that we have used to perform
 #   specific tasks on them.
@@ -46,15 +46,17 @@ print(type(obj_4))
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
-print(obj_1.replace("brown", "purple"))
 
-obj_2.append(6)
+print(obj_1.replace("lazy", "purple"))
+
+obj_2.pop()
 print(obj_2)
 
 y=list(obj_3)
-y.append("Purple")
+y.append("Frog")
 obj_3=tuple(y)
 print(obj_3)
 
-obj_4.remove(8)
+obj_4.add(10)
 print(obj_4)
+
