@@ -30,7 +30,7 @@ print(type(obj_2))
 print(type(obj_3))
 print(type(obj_4))
 ###############################################################################
-# TODO 2. (4 pts)
+# DONE 2. (4 pts)
 #
 #   Also, remember that these objects have methods that we have used to perform
 #   specific tasks on them.

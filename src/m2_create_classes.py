@@ -1,5 +1,5 @@
 ###############################################################################
-# TODO: 1. (3 pts)
+# DONE: 1. (3 pts)
 #
 #   In m1 we looked at classes that you have seen before. Those are built-in
 #   classes that are simply a part of Python.
@@ -22,7 +22,7 @@ class Pet:
         self.name=name
         self.age=age
 ###############################################################################
-# TODO: 2. (2 pts)
+# DONE: 2. (2 pts)
 #
 #   For this _todo_, modify the class above to include a __str__() method. If
 #   performed on a Pet object with these properties:
@@ -55,7 +55,7 @@ a1=Pet("Fido", 4)
 print(a1)
 
 ###############################################################################
-# TODO: 3. (2 pts)
+# DONE: 3. (2 pts)
 #
 #   For this _todo_, modify the class in _todo_ 1 above to include a method
 #   called speak() that, if given the same object described in _todo_ 2, would
